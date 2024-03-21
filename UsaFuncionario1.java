@@ -5,11 +5,13 @@ public class UsaFuncionario1 {
 	public static void main(String[] args) {
 		
 		Funcionario func = new Funcionario();
-		func.setNome("David");
-		func.setValorHora(32);
 		
-		System.out.println(func.getNome());
-		System.out.println(func.salario(2000));
+		func.setNome("David");
+		func.setValorHora(15.17f);
+
+		//ELe trabalha 20 horas por semana
+		System.out.println("Nome: " + func.getNome());
+		System.out.println("Salário: R$" + func.salario(20f));
 		
 
 	}
