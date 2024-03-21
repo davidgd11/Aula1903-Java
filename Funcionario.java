@@ -18,8 +18,8 @@ public class Funcionario {
 		this.valorHora = valorHora;
 	}
 	
-	public float salario (float valorHora) {
-		float salario = valorHora * 4;
+	public float salario (float horasSemana) {
+		float salario = valorHora * horasSemana * 4;
 		return salario;
 	}
 	
